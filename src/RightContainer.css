@@ -1,0 +1,38 @@
+.rgt-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.rgt-container h2{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.rgt-container h6{
+    margin-top: 6px;
+    font-size: 0.8rem;
+}
+.rgt-container span{
+    background-color: #E4F4FF;
+    color: #226ce3;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 3px 13px;
+    border-radius: 10px;
+}
+.rgt-container p{
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+.rgt-container button{
+  color: #3c4049;
+  background-color: #F1F5F9;
+  margin-top: 12px;
+  padding: 7px 15px;
+  border-radius: 10px;
+  border: 0.5px solid lightgray;
+  cursor: pointer;
+}
+.right div:nth-child(2){
+    margin-top: 1rem;
+}
