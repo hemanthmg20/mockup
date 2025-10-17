@@ -1,14 +1,15 @@
 .left-container{
     /* border: 1px solid gray; */
+    width: 100%;
     padding: 12px;
     border-radius: 10px;
     background-color: #FFFFFF;
-    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 2px #cccccc;
 }
 .card-status{
-    /* height: 13%; */
     width: 100%;
     display: flex;
+    text-wrap:wrap;
     flex-direction: column;
     gap: 5px;
     padding: 10px;
@@ -16,16 +17,22 @@
     border: 2px solid #ACE3FD;
     border-radius: 10px;
 }
-.left-container h4{
+.left-container span{
     font-weight: 600;
+    font-size: 0.95rem;
 }
 .card-status h6{
     color: #237CB4;
     font-weight: 600;
+    font-size: 0.95rem;
 }
 .card-status p{
     font-weight: 400;
+    font-size: 0.95rem;
     color: #788599;
+}
+.checkbox-div{
+    font-size: 0.95rem;
 }
 .left-container > div{
     margin-top: 0.85rem ;
@@ -47,6 +54,7 @@
     border-radius: 4px;
     padding: 5px;
     width: 100%;
+    font-size: 0.95rem;
 }
 .green-dot {
     height:10px;
