@@ -1,12 +1,17 @@
+.right-div{
+    padding: 5px;
+    /* margin-left: 10px; */
+    /* border: 1px solid; */
+}
 .rgt-container{
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
-    padding: 10px;
+    /* padding:0.3rem; */
 
 }
 .rgt-container h2{
     font-size: 0.9rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 .rgt-container h6{
     margin-top: 6px;
@@ -17,14 +22,20 @@
     color: #226ce3;
     font-size: 0.8rem;
     font-weight: 500;
-    padding: 3px 13px;
+    padding: 1px 10px 3px 10px;
     border-radius: 10px;
 }
 .rgt-container p{
     font-size: 0.85rem;
     margin-top: 10px;
+    font-weight: 500;
 }
-.rgt-container button{
+.btn-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+.btn-div button{
   color: #3c4049;
   background-color: #F1F5F9;
   margin-top: 12px;
@@ -32,7 +43,27 @@
   border-radius: 10px;
   border: 0.5px solid lightgray;
   cursor: pointer;
+  font-size: 0.85rem;
+
 }
-.right div:nth-child(2){
-    margin-top: 1rem;
+.mockup-right div:nth-child(2){
+    margin-top: 1.5rem;
+}
+.mockup-right div:nth-child(3){
+    margin-top: 1.5rem;
+}
+.insight{
+    background-color: #FEFCE8;
+    border: 1.5px solid orange;
+    color: #b8690e;
+    padding: 18px;
+    border-radius: 10px;
+}
+.insight h6{
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+.insight p{
+    margin-top: 7px;
+    font-size: 0.8rem;
 }
