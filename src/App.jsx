@@ -5,13 +5,13 @@ import RightContainer from "./RightContainer";
 
 export default function App() {
   return (
-  <>
-    <div className="header">
+  <div>
+    <div className="mockup-header">
       <p>Illustrative mockup of the UI screens</p>
-      <a href="https://mresult.com/"><img src="C:\Users\HemanthMG\Documents\React\mockup\src\shared image.png" alt="logo" /></a>
+      <a href="https://mresult.com/"><img src="./src/assets/MResult-logo.png" alt="logo" /></a>
     </div>
 
-    <div className="container">
+    <div className=" grid grid-cols-12 mockup-container">
 
         <AIagents />
 
@@ -19,9 +19,8 @@ export default function App() {
 
         <RightContainer />
 
-      <div className="right"></div>
     </div>
-  </>
+  </div>
 
   );
 } 
