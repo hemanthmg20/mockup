@@ -3,35 +3,42 @@
   padding: 0;
   box-sizing: border-box;
   /* font-family: "Noto sans"; */
-  font-size: 0.95rem;
+  /* font-size: 0.95rem; */
 }
 
 body, html {
   height: 100%;
   width: 100%;
 }
-.header{
+.mockup-header{
   display: flex;
-  gap: 65%;
-  padding: 5px;
-  background-color: #FFFFFF;
-  border: 1px solid rgb(188, 186, 186);
-  border-radius: 5px;
-  /* margin-left: 1px; */
-  /* box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.5); */
+    justify-content: space-between;
+    padding: 7px 10px 7px 15px;
+    background-color: #FFFFFF;
+    /* border: 0.3px solid #cbe4fd; */
+    /* border-radius: 5px; */
+    /* margin-left: 1px; */
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.5);
 }
-.header p{
-  font-size: 1.4rem;
+.mockup-header p{
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.mockup-header a img{
+  height: 2.5rem;
+  width: 15rem;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 2fr 5fr 3fr;
+.mockup-container {
+  /* display: grid; */
+  /* grid-template-columns: 2fr 4fr 4fr; */
+  padding: 10px;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
+  
 }
 
-.left {
+.mockup-left {
   /* background-color: #e2e8f0; */
   display: flex;
   flex-direction: column;
@@ -39,33 +46,36 @@ body, html {
   padding: 5px;
 }
 
-.middle {
+.mockup-middle {
   /* background-color: #cbd5e1; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5px;
   gap: 10px;
+  padding: 5px;
+  /* margin-left: -18px; */
 }
 
-.right {
-  border: 1px solid violet;
+.mockup-right {
+  /* background-color: white; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5px;
+  /* padding: 5px; */
+  /* border: 1px solid; */
 }
 
-.middle > div{
+.mockup-middle > div{
   width: 100%;
-  /* border: 1px solid gray; */
-  padding: 8px;
   border-radius: 10px;
   background-color: #FFFFFF;
-  box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px 2px #cccccc;
 }
-
+.mid-top{
+  padding: 20px;
+}
 .input-field{
+
   width: 100%;
   height: 38px;
   padding: 10px;
@@ -73,63 +83,72 @@ body, html {
   border-radius: 10px;
 }
 .btns-div{
-  width: 96%;
+  width: 100%;
   display: flex;
-  justify-content:flex-start;
+  flex-wrap: wrap;
+  /* justify-content:flex-start; */
   gap: 3%;
-  padding: 5px;
+  padding: 3px;
   margin-top: 8px;
+  font-size: 0.95rem;
 }
 .btns-div button:nth-child(1){
   background-color: #3B82F6;
   color: white;
 }
 .btns-div button{
-  padding: 10px 20px;
-  /* background-color: #3B82F6; */
+  font-size: 0.85rem;
+  padding: 7px 20px;
   background-color: #F1F5F9;
+  color: #3c4049;
   border-radius: 10px;
   border: none;
   cursor: pointer;
 }
 .mid-container{
-  /* padding: 50px 1px 1px 10px; */
-  /* padding-left: 10px; */
+  padding:10px;
 }
-.mid-container > div{
-  margin-left: 10px;
-}
+
 .mid-sub-container{
-  background-color: #F1F5F9;
+  /* margin-left: 10px; */
+  background-color: #F8FAFC;
   border-radius: 10px;
   padding: 10px;
   border: 1px solid #ACE3FD;
 }
 
+.mid-sub-container h5:nth-child(1){
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0%;
+}
 .mid-sub-container h5{
   font-weight: 600;
-}
-.mid-sub-container h5:nth-child(1){
-  font-size: 1.1rem;
+  font-size: 0.95rem;
+  margin-top: 15px;
 }
 .scroll-div{
-  /* border: 1px solid violet; */
-  padding: 10px 20px;
+  padding: 10px 20px; 
+}
+button.MuiButtonBase-root.MuiTab-root {
+    font-size: 13px;
+    text-transform: capitalize;
 }
 .options{
   padding: 10px;
   background-color: #F8FAFC;
-  border: 1px solid gray;
+  border: 1px solid #cbe4fd;
   border-radius: 12px;
   margin-top: 18px;
 }
 .summary-btns{
   display: flex;
+  flex-wrap: wrap;
   gap: 15px;
 }
 .options p{
   color: rgb(62, 61, 61);
-  font-size: 1rem;
+  font-size: 0.88rem;
   font-weight: 500;
 }
 .options button{
@@ -138,6 +157,19 @@ body, html {
   margin-top: 12px;
   padding: 7px 15px;
   border-radius: 10px;
-  border: 0.5px solid lightgray;
+  border: 1px solid #cbe4fd;
   cursor: pointer;
+  font-size: 0.85rem;
+  /* font-weight: 500; */
+}
+
+.fs-8 {
+  font-size: 0.8rem;
+}
+.mid-sub-container ul {
+    list-style-type: disc;
+}
+
+.ml-20p {
+  margin-left: 20px;
 }
