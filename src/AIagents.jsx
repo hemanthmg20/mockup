@@ -7,11 +7,11 @@ export default function AIagents(){
     const publications = ["Systematic Reviews","Meta-analyses", "Clinical Trials","Observational Studies"];
 
     return(
-        <div className='left'>
+        <div className=' col-span-3 mockup-left'>
 
             <div className='left-container'>
 
-                <h4>AI Agents</h4>
+                <span>AI Agents</span>
 
                 <div className='card-status'>
                     <h6 className='flex'><div className='green-dot'></div> Literature Monitor ☆</h6>
@@ -23,9 +23,9 @@ export default function AIagents(){
                     <p>Ready for compliance queries</p>
                 </div>
 
-                <div>
+                <div className='checkbox-div'>
                     {/* <br /> */}
-                    <h4>Data Sources</h4>
+                    <span>Data Sources</span>
                     <div className='list-input'>
                         {
                             sources.map((item,index) => (
@@ -35,9 +35,9 @@ export default function AIagents(){
                     </div>
                 </div>
 
-                <div>
+                <div className='checkbox-div'>
                     {/* <br /> */}
-                    <h4>Publication Types</h4>
+                    <span>Publication Types</span>
                     <div className='list-input'>
                         {
                             publications.map((item,index) => (
